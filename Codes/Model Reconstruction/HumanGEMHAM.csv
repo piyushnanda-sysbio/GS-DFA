@@ -1,0 +1,45 @@
+Compounds,Exchange Reactions,Done,Eschange Reactions,,Comps,,IDs,L.B. 
+arginine(s),EX_arg_L(e),,m01365s,,arginine[s],,m01365s,-0.133
+histidine(s),EX_his_L(e),,m02125s,,histidine[s],,m02125s,-0.133
+lysine(s),EX_lys_L(e),,m02426s,,lysine[s],,m02426s,-0.133
+methionine(s),EX_met_L(e),,m02471s,,methionine[s],,m02471s,-0.133
+phenylalanine(s),EX_phe_L(e),,m02724s,,phenylalanine[s],,m02724s,-0.133
+tryptophan(s),EX_trp_L(e),,m03089s,,tryptophan[s],,m03089s,-0.133
+tyrosine(s),EX_tyr_L(e),,m03101s,,tyrosine[s],,m03101s,-0.133
+alanine(s),EX_ala_L(e),,m01307s,,alanine[s],,m01307s,-0.133
+glycine(s),EX_gly(e),,m01986s,,glycine[s],,m01986s,-0.133
+serine(s),EX_ser_L(e),,m02896s,,serine[s],,m02896s,-0.133
+threonine(s),EX_thr_L(e),,m02993s,,threonine[s],,m02993s,-0.133
+aspartate(s),EX_asp_L(e),,m01370s,,aspartate[s],,m01370s,-0.133
+glutamate(s),EX_glu_L(e),,m01974s,,glutamate[s],,m01974s,-0.133
+asparagine(s),EX_asn_L(e),,m01369s,,asparagine[s],,m01369s,-0.133
+glutamine(s),EX_glu_L(e),,m01975s,,glutamine[s],,m01975s,-0.133
+isoleucine(s),EX_ile_L(e),,m02184s,,isoleucine[s],,m02184s,-0.133
+leucine(s),EX_leu_L(e),,m02360s,,leucine[s],,m02360s,-0.133
+proline(s),EX_pro_L(e),,m02770s,,proline[s],,m02770s,-0.133
+valine(s),EX_val_L(e),,m03135s,,valine[s],,m03135s,-0.133
+cysteine(s),EX_cys_L(e),,m01628s,,cysteine[s],,m01628s,-0.133
+thiamin(s),EX_thm(e),,m02982s,,thiamin[s],,m02982s,-1000
+hypoxanthine(s),EX_hxan(e),,m02159s,,hypoxanthine[s],,m02159s,-1000
+folate(s),EX_fol(e),,m01830s,,folate[s],,m01830s,-1000
+biotin(s),EX_btn(e),,m01401s,,biotin[s],,m01401s,-1000
+pantothenate(s),EX_pnto_R(e),,m02680s,,pantothenate[s],,m02680s,-1000
+choline(s),EX_chol(e),,m01513s,,choline[s],,m01513s,-1000
+inositol(s),EX_ins(e),,m02171s,,inositol[s],,m02171s,-1000
+nicotinamide(s),EX_ncam(e),,m02583s,,nicotinamide[s],,m02583s,-1000
+riboflavin(s),EX_ribflv(e),,m02842s,,pyridoxine[s],,m02817s,-1000
+thymidine(s),EX_thymd(e),,m02996s,,riboflavin[s],,m02842s,-1000
+aquacob(III)alamin(s),EX_aqcobal(e),,m01361s,,thymidine[s],,m02996s,-1000
+glucose(s),EX_glc_D(e),,m01965s,,aquacob(III)alamin[s],,m01361s,-1000
+sulfate(s),EX_so4(e),,m02946s,,lipoic acid[s],,m02394s,-1000
+NEFA blood pool in(s),,No,m02560s,,glucose[s],,m01965s,-0.1
+linoleate(s),EX_lnlc(e),,m02387s,,sulfate[s],,m02946s,-1000
+linolenate(s),EX_lnlnca(e),EX_lnlncg(e),m02389s,,linoleate[s],,m02387s,-1000
+O2(s),EX_o2(e),,m02630s,,linolenate[s],,m02389s,-1000
+H2O(s),EX_h2o(e),,m02040s,,O2[s],,m02630s,-1000
+retinoate(s),EX_retn(e),,m02833s,,H2O[s],,m02040s,-1000
+Fe2+(s),EX_fe2(e),,m01821s,,retinoate[s],,m02833s,-1000
+Pi(s),EX_pi(e),,m02751s,,Fe2+[s],,m01821s,-1000
+alpha-tocopherol[s],,,m01327s,,Pi[s],,m02751s,-1000
+gamma-tocopherol[s],,,m01935s,,alpha-tocopherol[s],,m01327s,-1000
+,,,,,gamma-tocopherol[s],,m01935s,-1000
