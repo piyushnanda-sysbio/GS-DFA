@@ -82,7 +82,7 @@ mediacomps=exc(ismember(exc,findRxnsFromMets(modelI,metList)));
 %Constrain media by HAM media
 
 modelUI=changeRxnBounds(modelUI,exc,0,'l');
-modelUI=changeRxnBounds(modelUI,mediacomps,-1,'l');
+modelUI=changeRxnBounds(modelUI,mediacomps,lb,'l');
 
 modelI=changeRxnBounds(modelI,exc,0,'l');
 modelI=changeRxnBounds(modelI,mediacomps,-1,'l');
